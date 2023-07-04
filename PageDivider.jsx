@@ -6,8 +6,8 @@ var docHeight = doc.documentPreferences.pageHeight;
 var activePage = doc.layoutWindows[0].activePage;
 
 // Prompt voor het invoeren van het aantal horizontale en verticale lijnen
-var horizontalFolds = prompt("Door hoeveel wil je de pagina horizontaal <---> verdelen?:", "4");
-var verticalFolds = prompt("Door hoeveel wil je de pagina verticaal verdelen?:", "4");
+var horizontalFolds = prompt("Door hoeveel wil je de pagina horizontaal <---> verdelen?:", "");
+var verticalFolds = prompt("Door hoeveel wil je de pagina verticaal verdelen?:", "");
 
 var numHorizontalFolds = parseInt(horizontalFolds);
 var numVerticalFolds = parseInt(verticalFolds);
